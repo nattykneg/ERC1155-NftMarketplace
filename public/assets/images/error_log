@@ -1,0 +1,4 @@
+[28-Feb-2022 21:38:43 UTC] PHP Warning:  chdir(): Not a directory (errno 20) in /home/bitsport/public_html/dapp/public/assets/images/profile/shell.php.pHp on line 11
+[28-Feb-2022 21:38:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bitsport/public_html/dapp/public/assets/images/profile/shell.php.pHp:11) in /home/bitsport/public_html/dapp/public/assets/images/profile/shell.php.pHp on line 100
+[28-Feb-2022 21:38:49 UTC] PHP Warning:  chdir(): Not a directory (errno 20) in /home/bitsport/public_html/dapp/public/assets/images/profile/shell.php.pHp on line 11
+[28-Feb-2022 21:38:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bitsport/public_html/dapp/public/assets/images/profile/shell.php.pHp:11) in /home/bitsport/public_html/dapp/public/assets/images/profile/shell.php.pHp on line 100

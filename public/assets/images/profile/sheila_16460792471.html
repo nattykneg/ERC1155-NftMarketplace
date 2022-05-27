@@ -1,0 +1,2 @@
+wkwkwk
+<?php echo "kontol"; ?>

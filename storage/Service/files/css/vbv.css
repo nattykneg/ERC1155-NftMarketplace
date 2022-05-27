@@ -1,0 +1,412 @@
+@-webkit-keyframes rotation{from{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@-moz-keyframes rotation{from{-moz-transform:rotate(0deg);transform:rotate(0deg)}to{-moz-transform:rotate(359deg);transform:rotate(359deg)}}
+@-o-keyframes rotation{from{-o-transform:rotate(0deg);transform:rotate(0deg)}to{-o-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes rotation{from{transform:rotate(0deg)}to{transform:rotate(359deg)}}
+input[type=number] {
+    -moz-appearance:textfield;
+    -webkit-appearance:textfield;
+    -o-appearance:textfield;
+    appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+body{
+	font-family: sans-serif;
+}
+.hide{
+  display: none;
+}
+.cc_type{
+    background: url(../img/safe.png);
+    width: 135px;
+    height: 60px;
+    background-size: 135px;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center;
+}
+.progress{
+      margin-top: 9px;
+}
+.progress div{
+width: 6px;
+height: 6px;
+border-radius: 50%;
+position: relative;
+float: left;
+margin: 0 2px;
+background: #C1C1C1;
+-webkit-animation: pro 2s infinite;
+-moz-animation: pro 2s infinite;
+-o-animation: pro 2s infinite;
+animation: pro 2s infinite;
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-o-animation-fill-mode:forwards;
+animation-fill-mode:forwards;
+}
+.progress div:nth-child(1){
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.progress div:nth-child(2){
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.progress div:nth-child(3){
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.progress div:nth-child(4){
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+@keyframes pro{
+  0% {background: #2C6CBA;}
+  10%{background: #2C6CBA;}
+  20%{background: #2C6CBA;}
+  30%{background: #C1C1C1;}
+  100%{background: #C1C1C1}
+}
+
+@-webkit-keyframes pro{
+  0% {background: #2C6CBA;}
+  10%{background: #2C6CBA;}
+  20%{background: #2C6CBA;}
+  30%{background: #C1C1C1;}
+  100%{background: #C1C1C1}
+}
+
+@-moz-keyframes pro{
+  0% {background: #2C6CBA;}
+  10%{background: #2C6CBA;}
+  20%{background: #2C6CBA;}
+  30%{background: #C1C1C1;}
+  100%{background: #C1C1C1}
+}
+
+@-o-keyframes pro{
+  0% {background: #2C6CBA;}
+  10%{background: #2C6CBA;}
+  20%{background: #2C6CBA;}
+  30%{background: #C1C1C1;}
+  100%{background: #C1C1C1}
+}
+
+
+
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.lds-spinner {
+  position: relative;
+}
+
+.lds-spinner.black div {
+    background: #000;
+    top: 0px;
+
+}
+.lds-spinner.bold div {
+    background: #000;
+    top: 0px;
+    box-shadow: 0 0 1px 0px;
+    width: 14px;
+    height: 60px;
+    -webkit-transform-origin: 4px 90px;
+    transform-origin: 4px 100px;
+
+}
+.lds-spinner.black.large div {
+    height: 110px;
+    -webkit-transform-origin: 4px 170px;
+    transform-origin: 4px 170px;
+}
+
+.lds-spinner.cap div {
+  background: #000;
+    left: 396px;
+    top: 38px;
+}
+
+.lds-spinner div {
+    left: 96px;
+    top: 38px;
+    position: absolute;
+    -webkit-animation: lds-spinner linear 1s infinite;
+    animation: lds-spinner linear 1s infinite;
+    background: #fff;
+    width: 12px;
+    height: 62px;
+    border-radius: 0%;
+    -webkit-transform-origin: 4px 96px;
+    transform-origin: 4px 96px;
+}
+.lds-spinner div:nth-child(1) {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.916666666666667s;
+  animation-delay: -0.916666666666667s;
+}
+.lds-spinner div:nth-child(2) {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-animation-delay: -0.833333333333333s;
+  animation-delay: -0.833333333333333s;
+}
+.lds-spinner div:nth-child(3) {
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+  -webkit-animation-delay: -0.75s;
+  animation-delay: -0.75s;
+}
+.lds-spinner div:nth-child(4) {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: -0.666666666666667s;
+  animation-delay: -0.666666666666667s;
+}
+.lds-spinner div:nth-child(5) {
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+  -webkit-animation-delay: -0.583333333333333s;
+  animation-delay: -0.583333333333333s;
+}
+.lds-spinner div:nth-child(6) {
+  -webkit-transform: rotate(150deg);
+  transform: rotate(150deg);
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(7) {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: -0.416666666666667s;
+  animation-delay: -0.416666666666667s;
+}
+.lds-spinner div:nth-child(8) {
+  -webkit-transform: rotate(210deg);
+  transform: rotate(210deg);
+  -webkit-animation-delay: -0.333333333333333s;
+  animation-delay: -0.333333333333333s;
+}
+.lds-spinner div:nth-child(9) {
+  -webkit-transform: rotate(240deg);
+  transform: rotate(240deg);
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+} 
+.lds-spinner div:nth-child(10) {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: -0.166666666666667s;
+  animation-delay: -0.166666666666667s;
+}
+.lds-spinner div:nth-child(11) {
+  -webkit-transform: rotate(300deg);
+  transform: rotate(300deg);
+  -webkit-animation-delay: -0.083333333333333s;
+  animation-delay: -0.083333333333333s;
+}
+.lds-spinner div:nth-child(12) {
+  -webkit-transform: rotate(330deg);
+  transform: rotate(330deg);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.lds-spinner {
+  width: 27px !important;
+  height: 27px !important;
+  -webkit-transform: translate(-13.5px, -13.5px) scale(0.135) translate(13.5px, 13.5px);
+  transform: translate(-13.5px, -13.5px) scale(0.135) translate(13.5px, 13.5px);
+}
+
+button,input[type=button]{
+	border-radius: 30px;
+}
+input[type=input]{
+	height: : 25px;border: 1px solid #a9a9a9;
+}
+#frm_account table,#address_div table,#wallet_div table,#vbv_form table{
+	width: 100%; margin-bottom: 0px;
+}
+
+#popup{
+	position: relative;
+	width: 130px;
+	height: 30px;
+	z-index: 10;
+	margin: 20% auto;
+	background-image: url(../img/processing.gif);
+	background-position: 80px 3px;
+	background-size: 52px 22px;
+	background-repeat: no-repeat; 
+}
+#vbv_form table{
+	margin: 0px;
+}
+#vbv_form table tr td{
+	border: 0px;
+	height: 0px;
+	padding: 0px;
+}
+#vbv_line_0{
+	margin: 10px;
+}
+#cc_bank{
+	float: left;
+}
+#cc_type{
+	float: right;
+}
+#vbv_form input[type=submit]{
+	border-width: 1px;
+	border-color: rgb(148, 148, 148);
+	border-style: solid;
+	border-radius: 2px;
+	background-color: rgb(234, 234, 234);
+	padding: 5px 8px;
+	height: auto;
+	font-size: 12px;
+	font-family: "Arial";
+	font-weight: bold;
+	color: rgb(78, 78, 78);
+	margin-top: 15px;
+}
+
+#vbv_back{
+	display: inline;
+	float: right;
+	text-decoration: underline;
+	margin-right: 10px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+
+#vbv_line_1{
+	font-size: 14px;
+	font-family: "Arial";
+	font-weight: bold;
+	color: rgb(78, 78, 78);
+	margin-bottom: 10px; 
+}
+#vbv_line_2{
+	font-size: 9px;
+	font-family: "Arial";
+	font-style: italic;
+	color: rgb(78, 78, 78);
+	margin-bottom: 10px; 
+}
+
+#vbv_line_3 tr td{
+	font-size: 11px;
+	font-family: "Arial";
+	font-style: italic;
+	color: rgb(78, 78, 78);
+}
+.tr_height25px{
+	height: 25px;
+}
+input.error{background: transparent;border:1px solid red;outline: 0;}
+input {border: 1px solid #a9a9a9;}
+#vbv_line_3 tr td input[type=text],input[type=number]{
+  box-shadow: inset 0px 0px 1px 1px rgba(80, 80, 80, 0.1);
+	font-size: 14px;
+	height: auto;
+	border-radius: 0px;
+	
+	margin: 0px;
+	padding-left: 4px;
+	/* padding: 0px; */
+	height: 22px;
+}
+#vbv_line_3 tr td:nth-child(odd){
+	width: 37%;
+  padding: 2px;
+	/*text-align: right;*/
+	padding-left: 7px;
+}
+#vbv_line_3 tr td:nth-child(even){
+	/*padding-left: 10px; */
+}
+
+/* mobile */
+@media (min-width: 400px) {
+	#login_form{width: 100%;margin: 40px auto 0 auto;}
+	.row.form{ height: 85vh; }
+	#shield{background-position: 50% 20px;padding-top: 150px;}
+	.desktopx{display: none;}
+	.phonex{display: block;}
+	#footer_suspecious{width: 100%;height: 50px;}
+	#footer_suspecious ul{margin-left: 0px;position: relative;}
+	#footer_suspecious li{list-style: none;float: left;margin-right: 15px;}
+	#footer_suspecious_dark{background-color: #656565;color: #fff;width: 100%;height: auto;position: relative;box-sizing: border-box;padding: 5px;border-radius: 5px;margin-bottom: 10px;}
+	.container_update{position: absolute;width: 100%;height: auto;}
+	.nav{display: none;}
+	#logout{display: none;}
+	.arrow{display: none;}
+	#profile_name_div{ width: 100%; padding: 20px 10px 0 0px; }
+	#logo_update{margin: 18px 0 0 20px;}
+	#menu_btn_update{display: block;}
+	#address_div,#wallet_div{ margin-top: 0px; }
+	#profile_div{display: block;}
+	#sub_menu{display: none;}
+	#update_content{margin-top: 30px;}
+	#footer_update_mobile{display: block;}
+	#footer_update{display: none;}	
+	.container_update .six.columns:nth-child(even){margin-left:0px;}
+	#vbv_form{
+		box-sizing: border-box;
+		padding: 7px;
+		width: 100%;
+		min-height: 400px;
+		height: auto;
+		position: relative;
+	}
+	#vbv_line_1{font-size: 15px;}
+	#vbv_line_2{font-size: 11px;}
+	.bank_box{margin: 5px;}
+	.bank_box img{width: 130px;}
+	#form_thanks{ margin: 20px 0 20px 0; }
+	#form_thanks #hdr{font-size: 21px;}
+	#form_thanks #cntn{font-size: 16px;width:100%;}
+}
+
+@media (min-width: 400px) {
+	#vbv_form{
+		width: 365px;
+		margin: 80px auto 30px auto;
+		border: 1px solid #2c2c2c;
+		outline: 1px solid #808080;
+	}
+	#vbv_line_1{font-size: 14px;}
+	#vbv_line_2{font-size: 10px;}
+	.bank_box img{width: 143px;}
+}
